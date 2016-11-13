@@ -17,6 +17,6 @@
     <source src="awesome.webm" type="video/webm">
 </video>
 <script>
-    document.body.onclick = document.getElementById('awesome').load();
+    document.body.addEventListener('click', function() { document.getElementById('awesome').load(); });
 </script>
 </body>
